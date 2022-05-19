@@ -23,6 +23,3 @@ body{
 .carousel-control-prev:hover{
     background-image: linear-gradient(to left, rgba(250, 0, 0, 0) 0px, rgb(0, 0, 0) 100%);
    }
-class.card{
-       border-radius: 50px;
-}
