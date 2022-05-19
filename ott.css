@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Beau+Rivage&family=Dancing+Script&family=Josefin+Sans:wght@100&family=Oswald:wght@200&family=Roboto+Mono:wght@100&family=Square+Peg&family=Water+Brush&display=swap');
+body{
+    background-color: red;
+}
+.carousel .carousel-item {
+    height: 600px;
+}
+  
+.carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+}
+.col-4{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.carousel-control-next:hover{
+    background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgb(0, 0, 0) 100%);
+   }
+.carousel-control-prev:hover{
+    background-image: linear-gradient(to left, rgba(250, 0, 0, 0) 0px, rgb(0, 0, 0) 100%);
+   }
+class.card{
+       border-radius: 50px;
+}
